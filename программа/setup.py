@@ -6,12 +6,12 @@ with open("README.md", "r", encoding='utf-8') as fh:
 setuptools.setup(
     name="gosnomer",
     version="0.0.8",
-    author="Alexey Leshchenko",
-    author_email="leshchenko@gmail.com",
+    author="Ilya Larsky",
+    author_email="ilya.larsky@gmail.com",
     description="Исправление ручного ввода автомобильных номеров РФ",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/leshchenko1979/gosnomer",
+    url="https://github.com/larskiy/gibddprogram",
     packages=['gosnomer'],
     exclude_package_data={
         'gosnomer': ["test**"]
